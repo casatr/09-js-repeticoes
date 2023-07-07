@@ -6,7 +6,7 @@
     <title>Tabuada</title>
 
 </head>
-<body onload="carregar()">
+<body>
     <style>
         body{
             background: rgb(70, 142,236);
@@ -70,7 +70,7 @@
                 tab.innerHTML = ''
                 while (c <= 10) {
                     let item = document.createElement('option')
-                    item.text = `&{num} x &{c} = ${num*c}`
+                    item.text = `${num} x ${c} = ${num*c}`
                     item.value = `tab${c}`
                     tab.appendChild(item)
                     c++
