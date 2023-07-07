@@ -6,7 +6,7 @@
     <title>Super Contador</title>
 
 </head>
-<body onload="carregar()">
+<body>
     <style>
         body{
             background: rgb(70, 142,236);
@@ -78,7 +78,7 @@
                     window.alert('Passo inválido! Considerando PASSO 1')
                     p = 1
                 }
-                if (1 < f) {
+                if (i < f) {
                     // Contagem Crescente
                     for(let c = i; c <= f; c += p) {
                         res.innerHTML += `${c} \u{1F449}`
